@@ -1,4 +1,7 @@
 # Identifying-Key-Drivers-of-Supply-Chain-Disruptions
+
+![Image](https://github.com/user-attachments/assets/20725820-5b6b-4621-9c15-ce270b85eea1)
+
 This project investigates the key drivers and patterns of supply chain disruptions using a quantitative, data-driven approach. 
 Leveraging operational, historical, coordination, and severity-related variables, the analysis applies descriptive visualizations and inferential statistical techniques to identify factors that influence disruption occurrence, risk, and impact in the supply chain.
 This project presents the empirical analysis conducted to examine the drivers, patterns, and outcomes of supply chain disruptions. Using a combination of linear regression models and supporting visualisations, the chapter evaluates how operational conditions, historical exposure, coordination mechanisms, and contextual factors influence both the likelihood and severity of supply chain disruptions.
