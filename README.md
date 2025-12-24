@@ -1,5 +1,6 @@
 # Supply Chain Disruption Analysis (Excel-Based Quantitative Study)
 
+![Image](https://github.com/user-attachments/assets/20725820-5b6b-4621-9c15-ce270b85eea1)
 
 ## Overview
 This repository presents an Excel-based quantitative analysis of supply chain disruptions.  
@@ -65,7 +66,7 @@ Dataset size: **999 observations**
 | Lead Time | -0.0021 | 0.623 | Not significant |
 | Historical Disruption Count | -0.00033 | 0.875 | Not significant |
 
-**Finding:** Operational delays are the dominant driver of disruption risk.
+**Findings:** Operational delays are the dominant driver of disruption risk.
 
 ---
 
@@ -78,7 +79,7 @@ Dataset size: **999 observations**
 | Quantity Ordered | ~0 | > 0.05 | Not significant |
 | Order Value | ~0 | > 0.05 | Not significant |
 
-**Finding:** Disruption risk is process-driven, not transaction-size driven.
+**Findings:** Disruption risk is process-driven, not transaction-size driven.
 
 ---
 
@@ -102,7 +103,7 @@ Dataset size: **999 observations**
 |--------|------------|---------|----------------|
 | Historical Disruption Count | 0.0030 | 0.606 | Weak, not significant |
 
-**Finding:** Historical exposure shows limited linear predictive power for future severity.
+**Findings:** Historical exposure shows limited linear predictive power for future severity.
 
 ---
 
@@ -126,7 +127,7 @@ Dataset size: **999 observations**
 | Dominant Buyer Flag | 0.010 | 0.887 | Not significant |
 | Data Sharing Consent | 0.016 | 0.846 | Not significant |
 
-**Finding:** Governance mechanisms alone do not significantly reduce disruption outcomes.
+**Findings:** Governance mechanisms alone do not significantly reduce disruption outcomes.
 
 ---
 
@@ -153,7 +154,7 @@ Operational + Historical + Coordination + Severity variables
 | Delay Days | **0.0478** | **< 0.001** | High |
 | Other Variables | — | > 0.05 | Limited |
 
-**Finding:** Integrated models strongly identify high-risk situations, dominated by severity and delays.
+**Findings:** Integrated models strongly identify high-risk situations, dominated by severity and delays.
 
 ---
 
@@ -178,7 +179,7 @@ Operational + Historical + Coordination + Severity variables
 | Disruption Type | **0.475** | **< 0.001** | Significant |
 | Product Category | 0.0056 | 0.745 | Not significant |
 
-**Finding:** Severity is driven by disruption type, not product category.
+**Findings:** Severity is driven by disruption type, not product category.
 
 ---
 
@@ -196,4 +197,3 @@ This Excel-based analysis demonstrates that supply chain disruptions are primari
 
 ---
 
-## Repository Structure
