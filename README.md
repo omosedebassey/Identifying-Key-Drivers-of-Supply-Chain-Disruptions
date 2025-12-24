@@ -207,3 +207,9 @@ This Excel-based analysis demonstrates that supply chain disruptions are primari
 
 ---
 
+---
+
+#### Author
+**Omosede Bassey**  
+Supply Chain & Data Analytics Portfolio Project
+
