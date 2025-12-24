@@ -40,8 +40,16 @@ Dataset size: **999 observations**
 ## Research Questions, Analysis & Findings
 
 ---
+### Research Questions
+1. What operational factors (demand variability, inventory levels, lead times, and reorder policies) significantly contribute to supply chain disruptions?
+2. What is the relationship between order characteristics (quantity ordered and order value) and supply chain disruption risk?
+3. Does historical exposure to disruptions increase the probability and severity of future supply chain disruptions?
+4. How do coordination and governance factors (dominant buyer role and data-sharing consent) influence supply chain disruption outcomes?
+5. Can a combination of operational, historical, and coordination variables be used to identify high-risk supply chain situations?
+6. How does disruption severity vary across product categories and disruption types?
 
-## RQ1: How do operational factors influence supply chain disruption risk?
+
+## RQ1: What operational factors (demand variability, inventory levels, lead times, and reorder policies) significantly contribute to supply chain disruptions?
 
 ### Regression Model
 **Dependent Variable:** Disruption Occurrence / Risk  
@@ -66,11 +74,12 @@ Dataset size: **999 observations**
 | Lead Time | -0.0021 | 0.623 | Not significant |
 | Historical Disruption Count | -0.00033 | 0.875 | Not significant |
 
-**Findings:** Operational delays are the dominant driver of disruption risk.
+**Findings:** The coefficient analysis reveals that delay duration is the only operational factor with a statistically significant impact on disruption risk, highlighting execution delays as the primary operational driver of supply chain disruptions.
+
 
 ---
 
-## RQ2: Do order characteristics (quantity and value) affect disruption likelihood?
+## RQ2: What is the relationship between order characteristics (quantity ordered and order value) and supply chain disruption risk?
 
 ### Regression Summary (RQ2)
 
@@ -103,11 +112,11 @@ Dataset size: **999 observations**
 |--------|------------|---------|----------------|
 | Historical Disruption Count | 0.0030 | 0.606 | Weak, not significant |
 
-**Findings:** Historical exposure shows limited linear predictive power for future severity.
+**Findings:** This finding suggests that while past disruptions increase the likelihood of future disruptions, they do not necessarily intensify how severe those disruptions are. Severity appears to be influenced more by situational or operational factors (e.g., lead times, delay days, supplier performance) rather than by historical frequency alone.
 
 ---
 
-## RQ4: How do coordination and governance factors influence disruption outcomes?
+## RQ4: How do coordination and governance factors (dominant buyer role and data-sharing consent) influence supply chain disruption outcomes?
 
 ### Regression Model
 **Independent Variables:** Dominant Buyer Flag, Data Sharing Consent
@@ -127,11 +136,12 @@ Dataset size: **999 observations**
 | Dominant Buyer Flag | 0.010 | 0.887 | Not significant |
 | Data Sharing Consent | 0.016 | 0.846 | Not significant |
 
-**Findings:** Governance mechanisms alone do not significantly reduce disruption outcomes.
+**Findings:** Disruption risks are more strongly driven by operational and historical factors rather than governance structures such as buyer dominance or data-sharing agreements
+Governance mechanisms alone do not significantly reduce disruption outcomes.
 
 ---
 
-## RQ5: Can combined variables identify high-risk supply chain situations?
+## RQ5: Can a combination of operational, historical, and coordination variables be used to identify high-risk supply chain situations?
 
 ### Multivariate Regression Model
 **Independent Variables:**  
@@ -154,11 +164,11 @@ Operational + Historical + Coordination + Severity variables
 | Delay Days | **0.0478** | **< 0.001** | High |
 | Other Variables | — | > 0.05 | Limited |
 
-**Findings:** Integrated models strongly identify high-risk situations, dominated by severity and delays.
+**Findings:** Integrated models strongly identify high-risk situations, dominated by severity and delays. Operational delays and historical disruption severity are the primary risk drivers. Historical severity matters more than frequency of past disruptions. Coordination and governance mechanisms (data sharing, dominant buyer role, communication cost) play a secondary role and do not significantly reduce risk on their own.
 
 ---
 
-## RQ6: How does disruption severity vary by product category and disruption type?
+## RQ6:  How does disruption severity vary across product categories and disruption types?
 
 ### Regression Model
 **Dependent Variable:** Disruption Severity  
@@ -179,7 +189,7 @@ Operational + Historical + Coordination + Severity variables
 | Disruption Type | **0.475** | **< 0.001** | Significant |
 | Product Category | 0.0056 | 0.745 | Not significant |
 
-**Findings:** Severity is driven by disruption type, not product category.
+**Findings:** Disruption severity varies significantly by disruption type but not by product category. While product categories show minor differences, the nature of the disruption itself is the dominant factor determining how severe the disruption becomes.
 
 ---
 
