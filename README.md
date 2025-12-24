@@ -209,7 +209,5 @@ This Excel-based analysis demonstrates that supply chain disruptions are primari
 
 ---
 
-#### Author
-**Omosede Bassey**  
-Supply Chain & Data Analytics Portfolio Project
+I am open to collaborating on data analysis, statistical analysis, and visualization-related projects. You can reach me via email at [omosede.bassey@gmail.com] or via LinkedIn [https://www.linkedin.com/in/omosede-bassey-978bb1289/]
 
