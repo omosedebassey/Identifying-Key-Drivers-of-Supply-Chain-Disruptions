@@ -6,7 +6,7 @@
 This repository presents an Excel-based quantitative analysis of supply chain disruptions.  
 The project applies **linear and multivariate regression analysis**, supported by descriptive charts built in **Excel and Power BI**, to identify the operational, historical, coordination, and structural drivers of supply chain disruption risk and severity.
 
-The work is designed as a **portfolio-quality analytics project**, demonstrating practical statistical reasoning, Excel modelling skills, and business-focused interpretation. It stimulates a real-world supply chain risk analytics use case and is suitable for Data Analyst / BI Analyst roles.
+The work is designed as a **portfolio-quality analytics project**, demonstrating practical statistical reasoning, Excel modelling skills, and business-focused interpretation. It simulates a real-world supply chain risk analytics use case and is suitable for Data Analyst / BI Analyst roles.
 
 ---
 
